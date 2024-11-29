@@ -1,0 +1,246 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif; /* Applica il font importato */
+    font-size: 100% /* Dimensione del testo base */
+}
+
+h1{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+h2{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    padding-bottom: 0.2em;
+}
+
+button{
+    background-color: #f04c2f;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+}
+
+button:hover{
+    background-color: #c8432c;
+}
+
+button:active{
+    background-color: #932f1d;
+}
+
+header{
+    background-color: black;
+    text-align: left;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+header img{
+    width: 12%;
+    margin-left: 2rem;
+}
+
+body{
+    margin: 0 auto;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    text-align: center;
+
+}
+
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover; 
+    height: 40rem;
+    text-align: center;
+}
+
+.banner-content{
+    width: 40%;
+}
+
+.banner > * {
+    position: relative;  
+    top: 50%;            
+    transform: translateY(-50%);
+}
+
+.banner h1{
+    line-height: 1;
+    padding-bottom: 1.5rem; 
+}
+
+.banner p{
+    padding-bottom: 2rem;
+}
+
+
+article{
+    box-sizing: border-box;
+    margin:0 auto;
+    margin: 8em auto;
+}
+
+article > div{
+    display: inline-block;
+    text-align: left;
+}
+
+.post-contents{
+    vertical-align: middle;
+    padding-left: 4em;
+}
+
+.post-content{
+    padding-bottom: 1.1em;
+}
+
+#post-image1{    
+    background-image: url(../images/notebook.jpg);
+    height: 35rem;
+    width: 35rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.red-banner{
+    color: white;
+    background-color: #e22d0e;
+    padding: 5rem;
+}
+
+.red-banner h1{
+    font-size: 1.5rem;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 2rem;
+}
+
+.red-banner blockquote{
+    font-size: 1.5rem;
+    font-style: italic;
+    padding-bottom: 2rem;
+}
+
+.red-banner h3{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.red-banner p{
+    font-size: 0.7rem;
+}
+
+aside{
+    margin: 8rem 4rem;
+    text-align: center;
+    }
+
+.featured-post{
+    width: 22%;
+    border: 1px solid #dee1e3;
+    border-radius: 2%;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    margin: 0 1rem;
+    vertical-align: top;
+}
+
+.featured-post > div{
+    box-sizing: border-box;
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.featured-post p{
+    font-size: 1rem;
+    margin:0;
+}
+
+.featured-info{
+}
+
+
+#featured-image1{    
+    background-image: url(../images/foto1.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+#featured-image2{    
+    background-image: url(../images/foto2.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+#featured-image3{    
+    background-image: url(../images/foto3.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #25a2c3;
+    color: #c8e7f0;
+    box-sizing: border-box;
+    padding: 3rem 2rem;
+}
+
+footer h2{
+    color: white;
+    font-size: 3rem;
+}
+
+footer div{
+    font-size: 1.2rem;
+}
+
+footer a{
+  color: #c8e7f0;
+}
+
+footer i{
+    color: white;
+}
+
+.footer-info{
+    width: fit-content;
+    border-bottom: 1px solid #c8e7f0;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+footer > div:last-child{
+    text-align: center;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+}
+
